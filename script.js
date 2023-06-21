@@ -52,6 +52,17 @@ const listaImagens = [
 
 const divListaProdutos = document.getElementById("lista-produtos");
 
+const botaoCarinho = document.querySelector('#botao-carinho');
+
+botaoCarinho.addEventListener('click', function() {
+  try {
+    // Adicionar comportamento ao clicar no botão "carinho"
+  } catch (e) {
+    console.error('Ocorreu um erro ao clicar no botão "carinho":', e);
+    alert('Desculpe, ocorreu um erro ao clicar no botão "carinho". Por favor, tente novamente mais tarde.');
+  }
+});
+
 for (let i = 0; i < 5; i++) {
   const imagem = listaImagens[i];
   const produtoAleatorio = new ProdutoDestaque(
