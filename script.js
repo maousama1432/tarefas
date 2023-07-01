@@ -50,7 +50,7 @@ const listaImagens = [
   "https://a-static.mlcdn.com.br/1500x1500/notebook-gamer-lenovo-ideapad-l340-81tr0003br-intel-core-i5-8gb-1tb-156-ips-nvidia-gtx1050-3gb/magazineluiza/228805200/6bedc6ebd4565cfb19a90d7151668d34.jpg"
 ];
 
-const divListaProdutos = document.getElementById("lista-produtos");
+const divListaProdutos = document.querySelector("#produtos #lista-produtos");
 
 const botaoCarinho = document.querySelector('#botao-carinho');
 
